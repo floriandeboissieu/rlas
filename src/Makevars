@@ -1,4 +1,4 @@
-PKG_CPPFLAGS = -DNDEBUG -DUNORDERED -DHAVE_UNORDERED_MAP -I./ -I./LASlib/ -I./LASzip/
+PKG_CPPFLAGS = -DNDEBUG -DUNORDERED -DHAVE_UNORDERED_MAP -D__STDC_FORMAT_MACROS -I./ -I./LASlib/ -I./LASzip/
 
 SOURCES = LASlib/lasreader_txt.cpp \
 					LASlib/fopen_compressed.cpp \
